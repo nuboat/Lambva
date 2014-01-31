@@ -10,20 +10,3 @@
  * http://creativecommons.org/licenses/by/3.0/
  * http://creativecommons.org/licenses/by/3.0/legalcode
  */
-package com.thjug.learn.lambda;
-
-/**
- *
- * @author nuboat
- */
-public class Calculator {
-
-    public int operateBinary(final int a, final int b, final IntegerMath op) {
-        return op.operation(a, b);
-    }
-
-	interface IntegerMath {
-		int operation(final int a, final int b);
-	}
-
-}

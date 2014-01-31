@@ -1,20 +1,31 @@
-# Created by http://gitignore.io
+# Created by http://www.gitignore.io
 
 ### Java ###
 *.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
 # Package Files #
 *.jar
 *.war
 *.ear
 
+
 ### Maven ###
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Icon must ends with two \r.
 Icon
 
 
@@ -24,3 +35,14 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
