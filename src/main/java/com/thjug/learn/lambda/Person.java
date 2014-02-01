@@ -60,10 +60,6 @@ public class Person {
 		this.emailAddress = emailAddress;
 	}
 
-    public void printPerson() {
-        System.out.println(name);
-    }
-
 	public int compareAge(final Person str) {
         return this.getAge().compareTo(str.getAge());
     }
